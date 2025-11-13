@@ -4,7 +4,7 @@
 #include <unistd.h>
 
 void signal_handler(int signum){
-    puts("中断します");
+    puts("Alarm signal received.");
     exit(1);
 }
 
